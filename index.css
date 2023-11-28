@@ -1,0 +1,132 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background: linear-gradient(90deg, rgba(149,159,163,1) 3%, rgba(191,200,201,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: 'Inconsolata', monospace;
+}
+
+.choices{
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.choice_container img{
+  width: 100%;
+  height: 50%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.choice_container{
+  background-color: #1dd9e2;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  border-radius: 25px;
+  width: 50%
+}
+
+.choice_button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bleft{
+  left: -40px;
+  z-index: 8;
+}
+
+.bright{
+  right: -40px;
+}
+
+.choice_button img{
+  width: 25px;
+  height: 25px;
+}
+
+.hide{
+  display: none;
+}
+
+
+.coins{
+  display: flex;
+}
+.coinpic{
+  height: 20px;
+  width: 20px;
+  padding: 15px;
+}
+
+.sbtn{
+  margin-top:20px;
+  font-size: 1.3em;
+  font-family: "Source Sans Pro", sans-serif;
+  pointer: cursor;
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  background-color: transparent; 
+  border: 4px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  border-radius: 25px;
+}
+
+.sbtn:hover{
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  box-sizing: border-box;
+}
+
+.btn-group button {
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  width: 95%;
+  height: 35px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  border: 2px solid #DA966A;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.btn:hover {
+  background-color: #F5ECEE;
+  color: #456142;
+}
+

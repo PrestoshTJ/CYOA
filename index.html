@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <script defer src = "query.js"></script>
+  <script type = "module" defer src = "index.js"></script>
+</head>
+
+<body>
+
+
+  <button id = "create"> Create </button>
+  <nav>
+    
+    <div class = "coins">
+      <img class = "coinpic" src = "pics/coin.png" alt = "">
+      <p class = "coinamnt"> 0 coins</p>
+    </div>
+  </nav>
+  
+
+  <div class = "choices">
+    <button class = "choice_button bleft">
+      <img src = "pics/left.png">
+    </button>
+    
+    <div class = "choice_container">
+      <img class = "choicepic" src = "pics/placeholder.jpg">
+      <h1 class = "header"> Header </h1>
+      <p class = "description"> Description </p>
+      <button class = "play-button sbtn"> Play this CYOA </button>
+
+      <button class = "choice_button bright">
+        <img src = "pics/right.png">
+      </button>
+    </div>
+  </div>
+
+  <div class="container hide">
+    <div id="text">Text</div>
+    <div class = "puzzle"></div>
+    <div id="option-buttons" class="btn-group">
+      <button class="btn">Option 1</button>
+      <button class="btn">Option 2</button>
+    </div>
+  </div> 
+
+  <div class = "back hide">
+    <button class = "backButton sbtn"> Back </button>
+  </div>
+
+  <div class = "hide endingDisplay" >
+    <h1> Endings Achieved: </h1>
+    <h2 class = "endingAmnt"></h2>
+  </div>
+
+  <div class = "hintDiv hide">
+    <button class = "hintbtn">Hint</button>
+    <p class = "hint"></p>
+  </div>
+  
+</body>
+
+</html>

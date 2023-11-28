@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: rgb(9,233,228);
+  background: linear-gradient(90deg, rgba(9,233,228,1) 0%, rgba(28,166,223,1) 100%); 
+}
+
+#bcontainer{
+  display: flex;
+  justify-content: center;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#container > div{
+  background-color: lightblue;
+}
+
+.option{
+  display: flex;
+}
+
+.hide{
+  display: none;
+}
+
+#Top{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.end{
+  display: flex;
+}
+
